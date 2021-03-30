@@ -11,3 +11,4 @@ sub_id: "subnet-30dad358"
 aws_ak: "Azzess_Key"
 aws_sk: "Secret_Key"
 vol_size: "8"
+---
