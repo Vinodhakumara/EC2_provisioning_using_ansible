@@ -11,9 +11,4 @@ sub_id: "subnet-30dad358"
 aws_ak: "Azzess_Key"
 aws_sk: "Secret_Key"
 vol_size: "8"
-kube_worker_name1: "Slave1"
-kube_worker_name2: "Slave2"
-os_Name: 
-   - "Master"
-   - "Slave"
-   - "Slave"
+---

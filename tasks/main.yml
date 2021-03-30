@@ -3,7 +3,6 @@
 - name: "installing boto3"
   pip:
         name: "boto3"
-
 - name: "launching Master for kubernetes ..."
   ec2_instance:
         region: "{{ reg }}"
@@ -22,7 +21,6 @@
         tags:
              name: "Master"
              K8S: "Master"
-
 - name: "launching Slave1 for kubernetes ..."
   ec2_instance:
         region: "{{ reg }}"
@@ -41,7 +39,6 @@
         tags:
              name: "Slave"
              node: "Slave1"
-
 - name: "launching Slave2 for kubernetes ..."
   ec2_instance:
         region: "{{ reg }}"
@@ -60,4 +57,4 @@
         tags:
              name: "Slave"
              node: "Slave2"
-
+---
